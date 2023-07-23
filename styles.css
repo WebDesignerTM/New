@@ -1,0 +1,87 @@
+.entire {
+    background-color: rgba(5, 110, 114, 0.2);
+}
+
+.center {
+    text-align: center;
+}
+
+th {
+    height: 40px;
+}
+
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+a:link.b, a:visited.b {
+    color: white;
+    background-color: rgb(6, 61, 165);
+    border-radius: 1px;
+    font-size: 16px;
+    margin: 2px 1px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover.b, a:active.b {
+    background-color: rgb(5, 95, 95);
+    color: white;
+}
+
+button {border: 2px solid rgb(255, 255, 255);
+        border-radius: 3px;
+        background-color: rgb(255, 255, 255);
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 2px 1px;
+        cursor: pointer;
+    }
+
+h1   {font-size: 80px;
+    text-align: center;}
+
+p    {font-size: 20px;}
+
+a.head {
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border-left: 6px solid red;
+}
+
+a:hover.head, a:active.head {
+    background-color: rgb(5, 95, 95);
+    color: white;
+}
+
+.top {
+    background-color: rgba(5, 110, 114, 0.7);
+    padding: 5px;
+}
+
+.bg {
+    background-image: url(Mountain.jpg);
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
